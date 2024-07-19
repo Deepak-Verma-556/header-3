@@ -10,12 +10,11 @@
     box-sizing: border-box;
 
 }
-
-/* section {
+section{
     display: flex;
-    align-items: center;
-    min-height: 100vh;
-} */
+        flex-direction: column;
+        min-height: 100vh;
+}
 
 .container {
     padding-left: 12px;
@@ -23,11 +22,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 1140px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-
-
+   
 }
 
 .row {
@@ -56,7 +51,7 @@
     padding-right: 12px;
 }
 
-.logo {
+.logo a {
     font-family: DM Sans, sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -77,6 +72,11 @@
 
 nav {
     padding-top: 30px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
 }
 
 .d-flex {
@@ -144,6 +144,7 @@ li a {
     line-height: 26px;
     text-align: center;
     color: #15143966;
+    margin-bottom: 20px;
 }
 
 .para2 {
@@ -168,10 +169,6 @@ input {
     width: 100%;
 }
 
-form {
-    /* max-width: max-content; */
-}
-
 .btn2 {
     padding: 10px 0px;
     border-radius: 100px;
@@ -184,6 +181,10 @@ form {
     color: white;
     background: #25DAC5;
     width: 100%;
+}
+
+.video {
+    border-radius: 20px;
 }
 
 .card {
@@ -205,7 +206,7 @@ form {
     display: none;
 }
 
-.dropdownoptions a:hover {
+.dropdownoptions :hover {
     background-color: #50725c;
     display: block;
 }
